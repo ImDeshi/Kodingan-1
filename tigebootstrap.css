@@ -1,0 +1,133 @@
+body {
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.teks-biru {
+    color: rgb(3, 96, 133);
+}
+
+.teks-birtu {
+    color:rgb(18, 18, 110);
+}
+
+.padding-nav{
+    padding-left: 8dvw;
+    padding-right: 8dvw;
+}
+
+.nav-btn {
+    background-color: transparent;
+    border: solid 2px #112c50;
+    padding: 0.5rem 1.1rem 0.5rem 1.1rem;
+    color:rgb(18, 18, 110);
+    border-radius: 25px;
+    cursor: pointer;
+    transition-property: background-color, border, color;
+}
+.nav-btn:hover {
+    background-color: rgb(26, 26, 161);
+    color: white;
+    border: solid 2px  rgb(26, 26, 161);
+}
+
+.container-boot {
+    margin-top: 0dvw;
+    margin-left: 15dvw;
+    margin-right: 15dvw;
+}
+
+.title {
+    padding-top: 6dvw;
+    width: 50%;
+}
+
+.foto {
+    width: 50%;
+}
+
+.foto img{
+    width:100%;
+}
+
+.title-1 {
+    font-size: 28px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.title-2 {
+    font-size: 70px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.subtitle {
+    background-color: #165aa7;
+    padding: 5px 5px 5px 5px;
+    font-size: 14px;
+    font-weight: 800;
+    margin: 0;
+    display: inline;
+    width: max-content;
+}
+
+.color-def{
+    color: #0A2647;
+}
+
+.color-main{
+    color:#024591;
+}
+
+.btn-main {
+    background-color: #006ace;
+    border: solid 2px #006ace;
+    padding: 0.5rem 1.1rem 0.5rem 1.1rem;
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+    transition-property: background-color, border, color;
+}
+
+.btn-main:hover {
+    background-color: rgb(26, 26, 161);
+    border: solid 2px  rgb(26, 26, 161);
+}
+
+.bg-def {
+    background-color: #0a2647;
+  }
+
+.card-custom {
+    background-color: #00000000;
+    border-radius: 25px;
+    border: solid 1px #205295;
+    padding: 0.8rem 2.3rem;
+    text-align: center;
+    color: #ffff;
+    transition-property: box-shadow, background-color;
+    transition-duration: 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .card-custom p {
+    margin: 0;
+    width: 100%;
+  }
+  .card-foto {
+    width: max(5dvw, 40px);
+  }
+  .card-foto img {
+    width: 100%;
+    min-height: 80px;
+    object-fit: contain;
+  }
+  .py-5 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }

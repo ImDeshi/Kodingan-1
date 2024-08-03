@@ -1,0 +1,176 @@
+body {
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.teks-biru {
+    color: rgb(3, 96, 133);
+}
+
+.teks-birtu {
+    color:rgb(18, 18, 110);
+}
+
+.nav {
+    display: flex;
+}
+
+.nav-btn {
+    background-color: transparent;
+    border: solid 2px #112c50;
+    padding: 0.5rem 1.1rem 0.5rem 1.1rem;
+    color:rgb(18, 18, 110);
+    border-radius: 25px;
+    cursor: pointer;
+    transition-property: background-color, border, color;
+}
+
+.nav-btn:hover {
+    background-color: rgb(26, 26, 161);
+    color: white;
+    border: solid 2px  rgb(26, 26, 161);
+}
+
+.p-3 {
+    padding: 1rem;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding-left: 70%;
+    justify-content: space-between;
+    background-color:white;
+}
+
+.normal {
+    text-decoration: none;
+}
+
+.a {
+    transition-duration:0.5s;
+    transition-property: color;
+    transition-timing-function: ease-in-out;
+}
+a:hover{
+    color: #009a9a;
+}
+
+.b {
+    transition-duration:0.5s;
+    transition-property: color;
+    transition-timing-function: ease-in-out;
+}
+
+b:hover{
+    color: white;
+}
+
+.color-def{
+    color: #0A2647;
+}
+
+.color-main{
+    color:#024591;
+}
+
+.title-1 {
+    font-size: 38px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.title-2 {
+    font-size: 82px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.subtitle {
+    background-color: #165aa7;
+    margin: 0;
+    display: inline;
+    width: max-content;
+}
+
+.btn-main {
+    background-color: #006ace;
+    border: solid 2px #006ace;
+    padding: 0.5rem 1.1rem 0.5rem 1.1rem;
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+    transition-property: background-color, border, color;
+}
+
+.btn-main:hover {
+    background-color: rgb(26, 26, 161);
+    border: solid 2px  rgb(26, 26, 161);
+}
+
+.container{
+    margin-left: 12dvw;
+    margin-right: 12dvw;
+}
+
+.flex {
+    display: flex;
+}
+
+.title {
+    width: 60%;
+}
+
+.foto {
+    width: 40%;
+}
+
+.foto img {
+    width: 100%;
+}
+
+.bg-main {
+    background-color: #0a2467;
+}
+
+.card {
+    background-color: transparent;
+    border-radius: 25px;
+    border: solid 1px #205925;
+    padding: 0.8rem 1.5rem;
+    color: white;
+}
+
+.card p{
+    margin:0;
+}
+
+.card-foto {
+    width: 40px;
+}
+
+.card-foto img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.py-2 {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.scroll {
+    overflow: scroll;
+}
+
+.w-max {
+    max-width: 100%;
+}
+
+.warp {
+    flex-wrap: wrap;
+}
